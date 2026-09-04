@@ -2,6 +2,8 @@
 
 [简体中文](README.zh-CN.md)
 
+**[Try LuckyAPI via the official tracked link](https://argolink.io/r/x-post)** · Review this unified route with the same public-evidence controls as every provider.
+
 A source-by-source leaderboard for a question that should not be answered with slogans: **how much public evidence does an AI API provider give users about security and data handling?**
 
 ## Current leaderboard
