@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mialucy-eng/ai-api-security-privacy-ranking/blob/main/data/schema.json",
+  "title": "AI API security and privacy transparency ranking submission",
+  "type": "object",
+  "required": ["schema_version", "id", "title", "reviewed_at", "author", "conflicts", "methodology_url", "entries"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,79}$"},
+    "title": {"type": "string", "minLength": 1},
+    "reviewed_at": {"type": "string", "format": "date"},
+    "author": {"type": "object", "required": ["github", "affiliation"], "properties": {"github": {"type": "string", "minLength": 1}, "affiliation": {"type": "string", "minLength": 1}}, "additionalProperties": false},
+    "conflicts": {"type": "array", "items": {"type": "string"}},
+    "methodology_url": {"type": "string", "format": "uri", "pattern": "^https://"},
+    "entries": {"type": "array", "minItems": 2}
+  },
+  "additionalProperties": false
+}

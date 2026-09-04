@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "example-fictional-security-privacy",
+  "title": "Fictional providers: public security and privacy evidence example",
+  "reviewed_at": "2026-09-04",
+  "author": {"github": "your-github-name", "affiliation": "Independent"},
+  "conflicts": ["Fictional example only; not a real provider assessment."],
+  "methodology_url": "https://example.com/security-privacy-method",
+  "entries": [
+    {
+      "provider": "Fictional North",
+      "service_scope": "Hosted API",
+      "controls": {
+        "privacy_policy": {"status": "documented", "source_url": "https://example.com/north/privacy", "note": "A public policy is available."},
+        "retention_period": {"status": "documented", "source_url": "https://example.com/north/retention", "note": "A retention period is stated."},
+        "training_use": {"status": "documented", "source_url": "https://example.com/north/training", "note": "Training use is described."},
+        "deletion_process": {"status": "documented", "source_url": "https://example.com/north/deletion", "note": "A deletion process is described."},
+        "subprocessors": {"status": "documented", "source_url": "https://example.com/north/subprocessors", "note": "A public subprocessor list is available."},
+        "security_contact": {"status": "documented", "source_url": "https://example.com/north/security", "note": "A security reporting route is available."},
+        "incident_status": {"status": "documented", "source_url": "https://example.com/north/status", "note": "A public incident status page is available."},
+        "encryption_in_transit": {"status": "documented", "source_url": "https://example.com/north/encryption", "note": "Transport encryption is described."},
+        "access_controls": {"status": "documented", "source_url": "https://example.com/north/access", "note": "Access controls are described."},
+        "independent_assurance": {"status": "not_documented", "source_url": "", "note": "No public independent assurance source was recorded in this fictional review."}
+      }
+    },
+    {
+      "provider": "Fictional South",
+      "service_scope": "Hosted API",
+      "controls": {
+        "privacy_policy": {"status": "documented", "source_url": "https://example.com/south/privacy", "note": "A public policy is available."},
+        "retention_period": {"status": "not_documented", "source_url": "", "note": "No retention period was found in this fictional review."},
+        "training_use": {"status": "documented", "source_url": "https://example.com/south/training", "note": "Training use is described."},
+        "deletion_process": {"status": "not_documented", "source_url": "", "note": "No deletion process was found in this fictional review."},
+        "subprocessors": {"status": "not_documented", "source_url": "", "note": "No public subprocessor list was found in this fictional review."},
+        "security_contact": {"status": "documented", "source_url": "https://example.com/south/security", "note": "A security reporting route is available."},
+        "incident_status": {"status": "documented", "source_url": "https://example.com/south/status", "note": "A public incident status page is available."},
+        "encryption_in_transit": {"status": "documented", "source_url": "https://example.com/south/encryption", "note": "Transport encryption is described."},
+        "access_controls": {"status": "not_documented", "source_url": "", "note": "No detailed access-control statement was found in this fictional review."},
+        "independent_assurance": {"status": "not_documented", "source_url": "", "note": "No public independent assurance source was recorded in this fictional review."}
+      }
+    }
+  ]
+}
